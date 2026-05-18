@@ -1,0 +1,25 @@
+[
+  {
+    "title": "SATCO ERP",
+    "description": "Enterprise ERP for inventory, sales, logistics and AI prediction",
+    "stack": [
+      "Laravel",
+      "Vue",
+      "Redis",
+      "RabbitMQ",
+      "Docker",
+      "Python"
+    ]
+  },
+  {
+    "title": "Smart Contact Center",
+    "description": "Asterisk based analytics driven call center",
+    "stack": [
+      "Asterisk",
+      "ARI",
+      "AMI",
+      "Realtime KPI",
+      "Forecast"
+    ]
+  }
+]

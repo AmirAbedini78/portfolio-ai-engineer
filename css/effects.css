@@ -1,0 +1,24 @@
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .cursor {
+    display: none;
+  }
+}
+
+@supports not (backdrop-filter: blur(10px)) {
+  .site-nav,
+  .window,
+  .terminal-card,
+  .profile-card,
+  .kpi-panel {
+    background: rgba(9, 20, 24, 0.96);
+  }
+}

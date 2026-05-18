@@ -1,0 +1,52 @@
+[
+    {
+        "company": "SATCO",
+        "period": "1404 - اکنون",
+        "role": "Software Engineer / Data & AI",
+        "focus": [
+            "Custom ERP",
+            "Warehouse Automation",
+            "Predictive Logistics",
+            "ML Infrastructure",
+            "SOA",
+            "Docker"
+        ]
+    },
+    {
+        "company": "Farapouyan",
+        "period": "1401 - 1404",
+        "role": "ERP + Contact Center Engineer",
+        "focus": [
+            "Asterisk",
+            "Call Center",
+            "Forecast",
+            "Analytics",
+            "RabbitMQ",
+            "Redis"
+        ]
+    },
+    {
+        "company": "MEHNA",
+        "period": "1398 - 1401",
+        "role": "Software Developer",
+        "focus": [
+            "121 System",
+            "GIS",
+            "AVL",
+            "Big Data",
+            "MVC",
+            "Offline Sync"
+        ]
+    },
+    {
+        "company": "Iran BMW Group",
+        "period": "1396 - 1398",
+        "role": "Automation Developer",
+        "focus": [
+            "CRM",
+            "Laravel",
+            "Mobile",
+            "Office Automation"
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "Amirhossein Abedini Nezhad Portfolio",
+  "short_name": "Amirhossein",
+  "description": "Enterprise ERP, Data, AI and VoIP engineering portfolio.",
+  "lang": "fa",
+  "dir": "rtl",
+  "display": "standalone",
+  "start_url": "./",
+  "theme_color": "#071014",
+  "background_color": "#071014"
+}

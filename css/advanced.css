@@ -1,0 +1,57 @@
+.hero__lab {
+  perspective: 1200px;
+}
+
+.window--code {
+  transform: rotateY(-7deg) rotateX(4deg);
+  animation: panelFloat 7s ease-in-out infinite;
+}
+
+@keyframes panelFloat {
+  0%, 100% { transform: rotateY(-7deg) rotateX(4deg) translateY(0); }
+  50% { transform: rotateY(-3deg) rotateX(2deg) translateY(-14px); }
+}
+
+.arch-node,
+.manifesto article,
+.erp-cards article,
+.skill-matrix div,
+.timeline__item,
+.mini-dashboard div {
+  position: relative;
+  overflow: hidden;
+}
+
+.arch-node::after,
+.manifesto article::after,
+.erp-cards article::after,
+.skill-matrix div::after,
+.timeline__item::after,
+.mini-dashboard div::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  opacity: 0;
+  pointer-events: none;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.12), transparent);
+  transform: translateX(120%);
+  transition: opacity 0.2s ease;
+}
+
+.arch-node:hover::after,
+.manifesto article:hover::after,
+.erp-cards article:hover::after,
+.skill-matrix div:hover::after,
+.timeline__item:hover::after,
+.mini-dashboard div:hover::after {
+  opacity: 1;
+  animation: shine 0.9s ease;
+}
+
+@keyframes shine {
+  to { transform: translateX(-120%); }
+}
+
+.section-shell {
+  scroll-margin-top: 90px;
+}

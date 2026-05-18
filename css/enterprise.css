@@ -1,0 +1,25 @@
+.erp-focus {
+  position: relative;
+}
+
+.erp-focus::before,
+.live-system::before {
+  content: "";
+  position: absolute;
+  inset-inline: 50%;
+  width: 1px;
+  height: 80px;
+  margin-top: -88px;
+  background: linear-gradient(transparent, rgba(89, 225, 223, 0.5));
+}
+
+.front { color: #d7f0ff; }
+.api { color: #e7fff0; }
+.core { color: #fff3c8; }
+.infra { color: #e9ddff; }
+.data { color: #ffdbe3; }
+
+.kpi-panel,
+.terminal-card {
+  min-height: 100%;
+}
